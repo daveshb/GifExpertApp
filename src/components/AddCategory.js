@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import ProTypes from 'prop-types';
 ;
 
-
 export const AddCategory = ({setCategories}) => {
 
     const [inputValue, setinputValue] = useState('');
@@ -18,13 +17,10 @@ const handleSubmit = (e) => {
     
     if (inputValue.trim().length>2){
         
-        setCategories(cats => [...cats, inputValue]);
+        setCategories(cats => [inputValue,...cats]);
         setinputValue('');
-        
         // console.log('Submit ');
 }
-
-
 }
 
   return( 
@@ -42,8 +38,6 @@ const handleSubmit = (e) => {
   )
   
 }
-
-
 
 
 AddCategory.proTypes ={
