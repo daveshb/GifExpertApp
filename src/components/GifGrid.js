@@ -9,9 +9,9 @@ const {data:images ,loading}= useFetchGifs(category);
 
     return (
   <>
-<h3>{category}</h3>
+<h3 className='animate__heartBeat'>{category}</h3>
 
-{loading && <p>loading</p>  }
+{loading && <p className='animate__heartBeat'>loading</p>  }
 
   <div className='card-grid'>
 

@@ -4,8 +4,8 @@
 
 body{
   padding: 60px;
-  color:grey;
-  background-color: yellow;
+  color:white;
+  background-color: gray;
 }
 
 input{
@@ -31,7 +31,7 @@ button{
 
 .card{
 align-content: center;
-border: 1px solid grey;
+border: 1px solid black;
 border-radius: 6px;
 overflow: hidden;
 margin-bottom: 10px;

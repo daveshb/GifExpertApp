@@ -16,7 +16,7 @@ const GifExpertApp = (props) => {
   
     return (
 <>
-<h2>GifExpertApp</h2>
+<h2 className='animate__flash' >GifExpertApp</h2>
 
 <AddCategory  setCategories={setCategories}/>
 

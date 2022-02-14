@@ -7,7 +7,7 @@ console.log(id, title,url);
 
 
   return (
-  <div className='card'>
+  <div className='card animate__swing animate__slow'>
 
 <img src={url} alt= {title} />
 <p>{title}</p>
